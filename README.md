@@ -4,6 +4,8 @@
 
 Exercism exercises in babashka.
 
+Haven't heard of Babashka? It's brand-new! Watch the [introductory talk](http://youtube.com/whttps://www.youtube.com/watch?v=Nw8aN-nrdEk&feature=emb_logoatch?v=Nw8aN-nrdEk).
+
 ## To run all tests
 
 Install [babashka](https://github.com/borkdude/babashka/)
