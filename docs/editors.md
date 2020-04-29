@@ -29,6 +29,7 @@ Open the project folder in VSCode (Ctrl+K Ctrl+O) or from another terminal:
 ```bash
 $ cd bbtest
 bbtest$ code .
+```
 
 4. In VSCode, run the Calva command `Connect to a running REPL` (ctrl+alt+c ctrl+alt+c). When prompted, enter `localhost:1667`.
 
