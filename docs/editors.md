@@ -1,10 +1,50 @@
 # Babashka text editor integrations
 
-## Atom: [chlorine](https://github.com/mauricioszabo/atom-chlorine)
+## nREPL
+
+### VSCode: [Calva](https://github.com/BetterThanTomorrow/calva)
+
+1. Install [VSCode](https://code.visualstudio.com/).
+
+2. Install [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva).
+
+Currently, Calva understands your source code to be in the context of a folder, i.e. a Clojure project. A nice way to create one is with [clj-new](https://github.com/seancorfield/clj-new):
+
+```bash
+$ clj -A:new lib myorg/bbtest
+Generating a project called bbtest based on the 'lib' template.
+The lib template is intended for library projects, not applications.
+```
+3. Start the nREPL server from the project's directory:
+
+```bash
+$ cd bbtest
+bbtest$ bb --nrepl-server 1667
+Started nREPL server at localhost:1667
+For more info visit https://github.com/borkdude/babashka/blob/master/doc/repl.md#nrepl.
+```
+
+Open the project folder in VSCode (Ctrl+K Ctrl+O) or from another terminal:
+
+```bash
+$ cd bbtest
+bbtest$ code .
+
+4. In VSCode, run the Calva command `Connect to a running REPL` (ctrl+alt+c ctrl+alt+c). When prompted, enter `localhost:1667`.
+
+REPL commands:
+
+* `Load Current File and Dependencies` ctrl+alt+c enter
+* `Evaluate Current Form Inline` ctrl+alt+c e
+* `Evaluate Current Top Level Form (defun)` ctrl+alt+c space
+
+## Socket REPL
+
+### Atom: [chlorine](https://github.com/mauricioszabo/atom-chlorine)
 
 1. Install [atom](https://flight-manual.atom.io/getting-started/sections/installing-atom/)
 
-2. Install the `chlorine` and `ink` packages
+2. Install the `chlorine` package
 
 3. Start socket REPL:
 
@@ -35,7 +75,7 @@ Babashka socket REPL started at localhost:1666
   'ctrl-; t':       'chlorine:run-test-for-var'
 ```
 
-## Emacs: [inf-clojure](https://github.com/clojure-emacs/inf-clojure)
+### Emacs: [inf-clojure](https://github.com/clojure-emacs/inf-clojure)
 
 For Emacs, install [inf-clojure](https://github.com/clojure-emacs/inf-clojure) by adding this to your `init.el`:
 
@@ -51,7 +91,7 @@ Start the socket REPL as above, and in emacs execute `M-x inf-clojure-connect` (
 
 Evaluate forms with C-c C-e. For a list of all available commands in inf-clojure-mode (a.k.a. the REPL) and inf-clojure-minor-mode you can either invoke C-h f RET inf-clojure-mode and C-h f RET inf-clojure-minor-mode or simply browse their menus.
 
-## Vim: [vim-iced](https://github.com/liquidz/vim-iced)
+### Vim: [vim-iced](https://github.com/liquidz/vim-iced)
 
 Download the [Neovim appimage](https://github.com/neovim/neovim/releases/download/v0.4.3/nvim.appimage) and alias it to `vim`.
 
