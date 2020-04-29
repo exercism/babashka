@@ -31,7 +31,7 @@ $ cd bbtest
 bbtest$ code .
 ```
 
-4. In VSCode, run the Calva command `Connect to a running REPL` (ctrl+alt+c ctrl+alt+c). When prompted, enter `localhost:1667`.
+4. In VSCode, run the Calva command `Connect to a running REPL` (ctrl+alt+c ctrl+alt+c). Choose `Generic` project when prompted, and enter `localhost:1667`.
 
 REPL commands:
 
