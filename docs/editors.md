@@ -39,6 +39,8 @@ REPL commands:
 * `Evaluate Current Form Inline` ctrl+alt+c e
 * `Evaluate Current Top Level Form (defun)` ctrl+alt+c space
 
+### Emacs: [CIDER](https://docs.cider.mx/cider/platforms/babashka.html)
+
 ## Socket REPL
 
 ### Atom: [chlorine](https://github.com/mauricioszabo/atom-chlorine)
