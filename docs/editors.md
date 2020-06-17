@@ -13,6 +13,8 @@ This is the one that started it all, and its [Orchard](https://metaredux.com/pos
 ```elisp
 (unless (package-installed-p 'cider)
   (package-install 'cider))
+  
+(add-hook 'clojure-mode-hook #'cider-mode)
 ```
 
 Summarized from the [CIDER docs](https://docs.cider.mx/cider/platforms/babashka.html):
@@ -23,7 +25,7 @@ Start the nREPL server from the project directory:
 $ bb --nrepl-server
 ```
 
-And connect to it afterwards using `C-c C-x c j` (cider-connect-clj).
+Create or open any Clojure file (`.clj`) with `C-x C-f` and connect to it using `C-c C-x c j` (cider-connect-clj).
 
 The [basic CIDER keybindings](https://docs.cider.mx/cider/usage/cider_mode.html#key-reference):
 
