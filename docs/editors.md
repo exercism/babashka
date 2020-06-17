@@ -2,6 +2,35 @@
 
 ## nREPL
 
+### Emacs: [CIDER](https://cider.mx/)
+
+This is the one that started it all, and its [Orchard](https://metaredux.com/posts/2018/11/09/ciders-orchard-the-heart.html) ecosystem powers many of the other plug-ins.
+
+1. Install [Emacs](https://www.gnu.org/software/emacs/download.html) for your platform.
+
+2. Choose an existing emacs distribution ([Prelude](https://prelude.emacsredux.com/), [Spacemacs](https://www.spacemacs.org/) and [Doom Emacs](https://github.com/hlissner/doom-emacs) are all great) or add this to your `init.el`:
+
+```elisp
+(unless (package-installed-p 'cider)
+  (package-install 'cider))
+```
+
+Summarized from the [CIDER docs](https://docs.cider.mx/cider/platforms/babashka.html):
+
+Start the nREPL server from the project directory:
+
+```bash
+$ bb --nrepl-server
+```
+
+And connect to it afterwards using `C-c C-x c j` (cider-connect-clj).
+
+The [basic CIDER keybindings](https://docs.cider.mx/cider/usage/cider_mode.html#key-reference):
+
+* `cider-load-buffer` - `C-c C-k`
+* `cider-eval-last-sexp` - `C-x C-e` or `C-c C-e`
+* `cider-eval-defun-at-point` - `C-M-x` or `C-c C-c`
+
 ### VSCode: [Calva](https://github.com/BetterThanTomorrow/calva)
 
 1. Install [VSCode](https://code.visualstudio.com/).
@@ -38,8 +67,6 @@ REPL commands:
 * `Load Current File and Dependencies` ctrl+alt+c enter
 * `Evaluate Current Form Inline` ctrl+alt+c e
 * `Evaluate Current Top Level Form (defun)` ctrl+alt+c space
-
-### Emacs: [CIDER](https://docs.cider.mx/cider/platforms/babashka.html)
 
 ## Socket REPL
 
