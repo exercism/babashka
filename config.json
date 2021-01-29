@@ -1,6 +1,7 @@
 {
   "track_id": "babashka",
   "language": "Babashka",
+  "slug": "babashka",
   "active": false,
   "status": {
     "concept_exercises": false,
