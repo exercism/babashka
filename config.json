@@ -2,6 +2,12 @@
   "track_id": "babashka",
   "language": "Babashka",
   "active": false,
+  "status": {
+    "concept_exercises": false,
+    "test_runner": false,
+    "representer": false,
+    "analyzer": false
+  },
   "blurb": "A Clojure babushka for the grey areas of Bash.",
   "version": 3,
   "ignore_pattern": "[Ee]xample",
