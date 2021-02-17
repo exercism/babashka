@@ -18,6 +18,20 @@
   "ignore_pattern": "[Ee]xample",
   "solution_pattern": "[Ee]xample",
   "test_pattern": "[Tt]est",
+  "files": {
+    "solution": [
+      "src/%{snake_slug}.clj"
+    ],
+    "test": [
+      "test/%{snake_slug}_test.clj"
+    ],
+    "example": [
+      "src/example.clj"
+    ],
+    "exemplar": [
+      ".meta/src/exemplar.clj"
+    ]
+  },
   "exercises": {
     "concept": [],
     "practice": [
