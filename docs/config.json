@@ -1,0 +1,18 @@
+{
+  "docs": [
+    {
+      "uuid": "45c5911a-efa0-4d02-96cd-7012401dcae4",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing Babashka locally",
+      "blurb": "Learn how to install Babashka locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "48eea64c-9320-4735-9c22-d8489e2a95f4",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn Babashka",
+      "blurb": "An overview of how to get started from scratch with Babashka"
+    }
+  ]
+}
