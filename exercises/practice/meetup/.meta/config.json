@@ -1,6 +1,11 @@
 {
   "blurb": "Calculate the date of meetups.",
-  "authors": [],
+  "authors": [
+    "porkostomus"
+  ],
+  "contributors": [
+    "iHiD"
+  ],
   "files": {
     "solution": [],
     "test": [],
