@@ -1,0 +1,4 @@
+
+# Changes to `fetch-configlet` should be made in the `exercism/configlet` repo
+bin/fetch-configlet     @exercism/maintainers-admin
+
