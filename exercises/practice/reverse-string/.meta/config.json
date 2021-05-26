@@ -1,6 +1,11 @@
 {
   "blurb": "Reverse a string",
-  "authors": [],
+  "authors": [
+    "porkostomus"
+  ],
+  "contributors": [
+    "iHiD"
+  ],
   "files": {
     "solution": [
       "src/reverse_string.clj"
