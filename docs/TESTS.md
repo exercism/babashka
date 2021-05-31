@@ -22,7 +22,7 @@ Then call `run-tests` on `bob-test`:
 
 Testing bob-test
 
-Ran 25 tests containing 14 assertions.
+Ran 25 tests containing 25 assertions.
 0 failures, 0 errors.
 {:test 25, :pass 25, :fail 0, :error 0, :type :summary}
 ```
