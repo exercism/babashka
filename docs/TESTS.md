@@ -26,3 +26,25 @@ Ran 25 tests containing 25 assertions.
 0 failures, 0 errors.
 {:test 25, :pass 25, :fail 0, :error 0, :type :summary}
 ```
+
+To create a test runner script:
+
+``` clojure
+#!/usr/bin/env bb
+
+(require '[clojure.test :as t]
+         '[babashka.classpath :as cp])
+
+(cp/add-classpath "src:test")                        
+
+(require 'bob-test)                  
+
+(def test-results
+  (t/run-tests 'bob-test))           
+
+(def failures-and-errors
+  (let [{:keys [:fail :error]} test-results]
+    (+ fail error)))                                 
+
+(System/exit failures-and-errors)
+```
