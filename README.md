@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/exercism/babashka.svg?branch=master)](https://travis-ci.org/exercism/babashka)
 
-Exercism exercises in Babashka.
+Exercism exercises in [Babashka](https://babashka.org/).
 
 Haven't heard of Babashka? It's brand-new! Watch the [introductory talk](https://www.youtube.com/watch?v=Nw8aN-nrdEk).
 
