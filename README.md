@@ -1,6 +1,6 @@
 # Exercism Babashka Track
 
-[![Build Status](https://travis-ci.org/exercism/babashka.svg?branch=master)](https://travis-ci.org/exercism/babashka)
+![Build Status](https://github.com/exercism/babashka/actions/workflows/test.yml/badge.svg)
 
 Exercism exercises in [Babashka](https://babashka.org/).
 
