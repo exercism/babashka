@@ -70,6 +70,12 @@ REPL commands:
 * `Evaluate Current Form Inline` ctrl+alt+c e
 * `Evaluate Current Top Level Form (defun)` ctrl+alt+c space
 
+### IntelliJ: [Cursive](https://cursive-ide.com/)
+
+1. Download IntelliJ [here](https://www.jetbrains.com/idea/download/index.html).
+2. Install Cursive by following the [user guide](https://cursive-ide.com/userguide/) and [configure deps](https://cursive-ide.com/userguide/deps.html).
+3. See [Cursive: Working with Babashka](https://cursive-ide.com/userguide/babashka.html) for more info.
+
 ## Socket REPL
 
 ### Atom: [chlorine](https://github.com/mauricioszabo/atom-chlorine)
