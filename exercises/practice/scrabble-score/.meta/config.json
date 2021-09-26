@@ -1,10 +1,20 @@
 {
   "blurb": "Given a word, compute the Scrabble score for that word.",
   "authors": [
-    "porkostomus"
+    "rubysolo"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "arnab",
+    "canweriotnow",
+    "dkinzer",
+    "drewbs",
+    "geofflane",
+    "haus",
+    "kytrinyx",
+    "mathias",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +24,7 @@
       "test/scrabble_score_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Inspired by the Extreme Startup game",

@@ -1,13 +1,29 @@
-(ns phone-number)
+(ns phone-number
+  (:require [clojure.string :as str]))
 
-(defn number [num-string] ;; <- arglist goes here
-      ;; your code goes here
-)
+(defn- digits-only
+  [input]
+  (str/replace input #"\D" ""))
 
-(defn area-code [num-string] ;; <- arglist goes here
-  ;; your code goes here
-)
+(defn- extract-parts
+  [input]
+  (if-let [matches (re-find #"^1?(...)(...)(....)$" input)]
+    (rest matches)
+    ["000" "000" "0000"]))
 
-(defn pretty-print [num-string] ;; <- arglist goes here
-  ;; your code goes here
-)
+(defn- parts
+  [input]
+  (-> input
+      digits-only
+      extract-parts))
+
+(defn number [input]
+  (str/join (parts input)))
+
+(defn area-code [input]
+  (first (parts input)))
+
+(defn pretty-print [input]
+  (let [[area-code exchange subscriber] (parts input)]
+    (str "(" area-code ") " exchange "-" subscriber)))
+

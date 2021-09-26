@@ -1,10 +1,14 @@
 {
   "blurb": "Take a nested list and return a single list with all values except nil/null",
   "authors": [
-    "porkostomus"
+    "haus"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "mwfogleman",
+    "object88",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +18,7 @@
       "test/flatten_array_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Interview Question",

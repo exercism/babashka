@@ -1,10 +1,13 @@
 {
   "blurb": "Make sure the brackets and braces all match.",
   "authors": [
-    "porkostomus"
+    "leeqleeq"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +17,7 @@
       "test/matching_brackets_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Ginna Baker"

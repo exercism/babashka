@@ -5,7 +5,7 @@
 
 (deftest test-initialize-perfect-number
   (testing "Negative numbers throw an exception"
-    (is (thrown? Throwable (perfect-numbers/classify -1)))))
+    (is (thrown? IllegalArgumentException (perfect-numbers/classify -1)))))
 
 (deftest test-classify-deficient
   (testing "13 is a deficient number"

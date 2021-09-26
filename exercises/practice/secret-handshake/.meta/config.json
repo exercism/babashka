@@ -1,10 +1,10 @@
 {
   "blurb": "Given a decimal number, convert it to the appropriate sequence of events for a secret handshake.",
-  "authors": [
-    "porkostomus"
-  ],
+  "authors": [],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "sjwarner-bp"
   ],
   "files": {
     "solution": [
@@ -14,7 +14,7 @@
       "test/secret_handshake_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Bert, in Mary Poppins",

@@ -1,10 +1,18 @@
 {
   "blurb": "Given the position of two queens on a chess board, indicate whether or not they are positioned so that they can attack each other.",
   "authors": [
-    "porkostomus"
+    "kytrinyx"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "canweriotnow",
+    "dkinzer",
+    "geofflane",
+    "haus",
+    "mathias",
+    "rubysolo",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +22,7 @@
       "test/queen_attack_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "J Dalbey's Programming Practice problems",

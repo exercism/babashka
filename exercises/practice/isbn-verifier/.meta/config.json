@@ -1,10 +1,11 @@
 {
   "blurb": "Check if a given string is a valid ISBN-10 number.",
-  "authors": [
-    "porkostomus"
-  ],
+  "authors": [],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "jgomo3",
+    "sjwarner-bp"
   ],
   "files": {
     "solution": [
@@ -14,7 +15,7 @@
       "test/isbn_verifier_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Converting a string into a number and some basic processing utilizing a relatable real world example.",

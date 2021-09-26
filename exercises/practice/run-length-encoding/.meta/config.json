@@ -1,10 +1,12 @@
 {
   "blurb": "Implement run-length encoding and decoding.",
   "authors": [
-    "porkostomus"
+    "themistoklik"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "sjwarner-bp"
   ],
   "files": {
     "solution": [
@@ -14,7 +16,7 @@
       "test/run_length_encoding_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Wikipedia",

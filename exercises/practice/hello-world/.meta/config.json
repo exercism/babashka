@@ -1,10 +1,14 @@
 {
   "blurb": "The classical introductory exercise. Just say \"Hello, World!\"",
-  "authors": [
-    "porkostomus"
-  ],
+  "authors": [],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "christianpoveda",
+    "haus",
+    "jcorrado",
+    "sjwarner-bp",
+    "tejasbubane",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +18,7 @@
       "test/hello_world_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "This is an exercise to introduce users to using Exercism",

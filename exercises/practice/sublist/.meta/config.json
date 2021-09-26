@@ -1,10 +1,12 @@
 {
   "blurb": "Write a function to determine if a list is a sublist of another list.",
   "authors": [
-    "porkostomus"
+    "leetwinski"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +16,7 @@
       "test/sublist_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   }
 }

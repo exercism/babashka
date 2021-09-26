@@ -46,11 +46,11 @@
 
 (deftest unknown-operation
   (is (thrown?
-       Throwable
+       IllegalArgumentException
        (wordy/evaluate "What is 52 cubed?"))))
 
 (deftest Non-math-question
   (is (thrown?
-       Throwable
+       IllegalArgumentException
        (wordy/evaluate "Who is the President of the United States?"))))
 

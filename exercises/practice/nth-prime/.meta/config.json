@@ -1,10 +1,10 @@
 {
   "blurb": "Given a number n, determine what the nth prime is.",
   "authors": [
-    "porkostomus"
+    "haus"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti"
   ],
   "files": {
     "solution": [
@@ -14,7 +14,7 @@
       "test/nth_prime_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "A variation on Problem 7 at Project Euler",

@@ -1,38 +1,31 @@
 (ns binary-search-tree)
 
-(defn value
-  "Returns the value of a node in a binary search tree."
-  [node]
-)
+(defn value [node] (first node))
+(defn left [node] (second node))
+(defn right [node] (last node))
+(defn singleton [n] [n nil nil])
 
-(defn singleton
-  "Returns a node consisting of a single value."
-  [n]
-)
-
-(defn left
-  "Returns the value of the left child of a node in a binary search tree."
-  [node]
-  )
-
-(defn right
-  "Returns the value of the right child of a node in a binary search tree."
-  [node]
-  )
-
-(defn insert
-  "Inserts a value into a node in a binary search tree."
-  [v node]
-)
+(defn insert [v node]
+  (if
+   (empty? node)
+    (singleton v)
+    (let [x (value node)]
+      (if
+       (>= x v)
+        [x (insert v (left node)) (right node)]
+        [x (left node) (insert v (right node))]))))
 
 (defn from-list
   "Creates a binary search tree from a list of values."
   [xs]
+  (reduce #(insert %2 %1) nil xs))
+
+(comment
+  (from-list [4 2 6 1 3 7 5])
   )
 
-(defn to-list
-  "Takes a node of a binary search tree and returns a sorted list of values."
-  [node]
-)
-
-
+(defn to-list [node]
+  (if
+   (empty? node)
+    node
+    (concat (to-list (left node)) [(value node)] (to-list (right node)))))

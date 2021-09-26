@@ -1,10 +1,12 @@
 {
   "blurb": "Convert a number, represented as a sequence of digits in one base, to any other base.",
   "authors": [
-    "porkostomus"
+    "haus"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +16,7 @@
       "test/all_your_base_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   }
 }

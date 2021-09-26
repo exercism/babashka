@@ -1,0 +1,63 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+nil
+
+clj꞉isbn-verifier꞉> 
+#<SciVar@233e6efd: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x2ea32c0f "sci.impl.fns$fun$arity_1__1213@2ea32c0f"]>
+
+clj꞉isbn-verifier꞉> 
+#<SciVar@761050a6: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x62c4cf31 "sci.impl.fns$fun$arity_1__1213@62c4cf31"]>
+
+clj꞉isbn-verifier꞉> 
+; Evaluating file: isbn_verifier.clj
+nil
+clj꞉isbn-verifier꞉> 
+true
+
+clj꞉isbn-verifier꞉> 
+false
+
+clj꞉isbn-verifier꞉> 
+true
+
+clj꞉isbn-verifier꞉> 
+false
+
+clj꞉isbn-verifier꞉> 
+false
+
+clj꞉isbn-verifier꞉> 
+; : Could not resolve symbol: is-valid? isbn-verifier /home/porky/exercism/clojure/exercises/practice/isbn-verifier/src/isbn_verifier.clj:1:2
+clj꞉isbn-verifier꞉> 
+; Evaluating file: isbn_verifier_test.clj
+#'isbn-verifier-test/check-digit-of-X-should-not-be-used-for-0
+clj꞉isbn-verifier-test꞉> 
+{:test 14, :pass 14, :fail 0, :error 0, :type :summary}
+
+clj꞉isbn-verifier-test꞉> 
+; Evaluating file: wordy.clj
+#'wordy/evaluate
+clj꞉wordy꞉> 
+; Evaluating file: wordy_test.clj
+#'wordy-test/Non-math-question
+clj꞉wordy-test꞉> 
+{:test 16, :pass 16, :fail 0, :error 0, :type :summary}
+
+clj꞉wordy-test꞉> 

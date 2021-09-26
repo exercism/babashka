@@ -1,10 +1,19 @@
 {
   "blurb": "Implement the classic method for composing secret messages called a square code.",
   "authors": [
-    "porkostomus"
+    "rubysolo"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "canweriotnow",
+    "ClashTheBunny",
+    "dkinzer",
+    "geofflane",
+    "haus",
+    "kytrinyx",
+    "mathias",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +23,7 @@
       "test/crypto_square_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "J Dalbey's Programming Practice problems",

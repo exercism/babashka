@@ -1,0 +1,286 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+nil
+
+clj꞉wordy꞉> 
+#<SciVar@29443cdf: 
+  {"plus"
+   #object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"],
+   "minus" #object[clojure.core$_ 0xb136986 "clojure.core$_@b136986"],
+   "multiplied by"
+   #object[clojure.core$_STAR_ 0x27f8cb4c "clojure.core$_STAR_@27f8cb4c"],
+   "divided by"
+   #object[clojure.core$_SLASH_ 0x28d6a0ad "clojure.core$_SLASH_@28d6a0ad"]}>
+
+clj꞉wordy꞉> 
+#<SciVar@22547e10: 
+  "plus|minus|multiplied by|divided by|(?<=plus |minus |multiplied by |divided by )\\-?\\d+|\\-?\\d+(?= plus| minus| multiplied by| divided by)">
+
+clj꞉wordy꞉> 
+#<SciVar@63d29ef3: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x15d9fadb "sci.impl.fns$fun$arity_1__1213@15d9fadb"]>
+
+clj꞉wordy꞉> 
+#<SciVar@12fdb605: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x4119e580 "sci.impl.fns$eval_fn$fn__1715@4119e580"]>
+
+clj꞉wordy꞉> 
+#<SciVar@6091d1ab: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x61cac024 "sci.impl.fns$fun$arity_1__1213@61cac024"]>
+
+clj꞉wordy꞉> 
+#<SciVar@21fc962c: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x50ea887 "sci.impl.fns$fun$arity_1__1213@50ea887"]>
+
+clj꞉wordy꞉> 
+2
+
+clj꞉wordy꞉> 
+55
+
+clj꞉wordy꞉> 
+55
+
+clj꞉wordy꞉> 
+55
+
+clj꞉wordy꞉> 
+-11
+
+clj꞉wordy꞉> 
+45801
+
+clj꞉wordy꞉> 
+16
+
+clj꞉wordy꞉> 
+-75
+
+clj꞉wordy꞉> 
+-11
+
+clj꞉wordy꞉> 
+3
+
+clj꞉wordy꞉> 
+8
+
+clj꞉wordy꞉> 
+3
+
+clj꞉wordy꞉> 
+14
+
+clj꞉wordy꞉> 
+-12
+
+clj꞉wordy꞉> 
+-8
+
+clj꞉wordy꞉> 
+2
+
+clj꞉wordy꞉> 
+"plus|minus|multiplied by|divided by|(?<=plus |minus |multiplied by |divided by )\\-?\\d+|\\-?\\d+(?= plus| minus| multiplied by| divided by)"
+
+clj꞉wordy꞉> 
+; : Could not resolve symbol: join wordy /home/porky/exercism/clojure/exercises/practice/wordy/.meta/src/example.clj:3:10
+clj꞉wordy꞉> 
+#<SciVar@35ec7097: 
+  {"plus"
+   #object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"],
+   "minus" #object[clojure.core$_ 0xb136986 "clojure.core$_@b136986"],
+   "multiplied by"
+   #object[clojure.core$_STAR_ 0x27f8cb4c "clojure.core$_STAR_@27f8cb4c"],
+   "divided by"
+   #object[clojure.core$_SLASH_ 0x28d6a0ad "clojure.core$_SLASH_@28d6a0ad"]}>
+
+clj꞉wordy꞉> 
+; : Could not resolve symbol: join wordy /home/porky/exercism/clojure/exercises/practice/wordy/.meta/src/example.clj:3:10
+clj꞉wordy꞉> 
+nil
+
+clj꞉wordy꞉> 
+#<SciVar@35ec7097: 
+  {"plus"
+   #object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"],
+   "minus" #object[clojure.core$_ 0xb136986 "clojure.core$_@b136986"],
+   "multiplied by"
+   #object[clojure.core$_STAR_ 0x27f8cb4c "clojure.core$_STAR_@27f8cb4c"],
+   "divided by"
+   #object[clojure.core$_SLASH_ 0x28d6a0ad "clojure.core$_SLASH_@28d6a0ad"]}>
+
+clj꞉wordy꞉> 
+#<SciVar@4ecff936: #"plus|minus|multiplied by|divided by|-?\d+|\S+">
+
+clj꞉wordy꞉> 
+"plus|minus|multiplied by|divided by|(?<=plus |minus |multiplied by |divided by )\\-?\\d+|\\-?\\d+(?= plus| minus| multiplied by| divided by)"
+
+clj꞉wordy꞉> 
+"plus|minus|multiplied by|divided by|-?\\d+|\\S+"
+
+clj꞉wordy꞉> 
+#<SciVar@22547e10: "plus|minus|multiplied by|divided by|-?\\d+|\\S+">
+
+clj꞉wordy꞉> 
+"plus|minus|multiplied by|divided by|-?\\d+|\\S+"
+
+clj꞉wordy꞉> 
+{:test 0, :pass 0, :fail 0, :error 0, :type :summary}
+
+clj꞉wordy-test꞉> 
+; Evaluating file: wordy.clj
+; : Could not resolve symbol: deftest wordy /home/porky/exercism/clojure/exercises/practice/wordy/src/wordy.clj:51:2
+; Evaluation of file wordy.clj failed: class 
+
+clj꞉wordy-test꞉> 
+clj꞉wordy꞉> 
+; Evaluating file: wordy.clj
+nil
+clj꞉wordy꞉> 
+; Evaluating file: wordy_test.clj
+{:test 16, :pass 2, :fail 0, :error 14, :type :summary}
+clj꞉wordy-test꞉> 
+; Evaluating file: wordy.clj
+nil
+clj꞉wordy꞉> 
+; Evaluating file: wordy_test.clj
+{:test 16, :pass 2, :fail 0, :error 14, :type :summary}
+clj꞉wordy-test꞉> 
+; java.lang.NumberFormatException: For input string: "What" wordy REPL:15:17
+clj꞉wordy꞉> 
+; Evaluating file: wordy.clj
+nil
+clj꞉wordy꞉> 
+; Evaluating file: wordy_test.clj
+{:test 16, :pass 16, :fail 0, :error 0, :type :summary}
+clj꞉wordy-test꞉> 
+; Evaluating file: example.clj
+nil
+clj꞉wordy꞉> 
+2
+
+clj꞉wordy꞉> 
+["What is 1 plus 1?" "1 plus 1"]
+
+clj꞉wordy꞉> 
+nil
+
+clj꞉wordy꞉> 
+#<SciVar@35ec7097: 
+  {"plus"
+   #object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"],
+   "minus" #object[clojure.core$_ 0xb136986 "clojure.core$_@b136986"],
+   "multiplied by"
+   #object[clojure.core$_STAR_ 0x27f8cb4c "clojure.core$_STAR_@27f8cb4c"],
+   "divided by"
+   #object[clojure.core$_SLASH_ 0x28d6a0ad "clojure.core$_SLASH_@28d6a0ad"]}>
+
+clj꞉wordy꞉> 
+#<SciVar@4ecff936: #"plus|minus|multiplied by|divided by|-?\d+|\S+">
+
+clj꞉wordy꞉> 
+#<SciVar@5af69791: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x23752784 "sci.impl.fns$fun$arity_1__1213@23752784"]>
+
+clj꞉wordy꞉> 
+#<SciVar@21fc962c: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x1898fdd2 "sci.impl.fns$fun$arity_1__1213@1898fdd2"]>
+
+clj꞉wordy꞉> 
+["What is 1 plus 1?" "1 plus 1"]
+
+clj꞉wordy꞉> 
+; java.lang.ClassCastException: clojure.lang.PersistentVector cannot be cast to java.lang.CharSequence wordy /home/porky/exercism/clojure/exercises/practice/wordy/.meta/src/example.clj:1:1
+clj꞉wordy꞉> 
+("1" "plus" "1")
+
+clj꞉wordy꞉> 
+["What is 1 plus 1?" "1 plus 1"]
+
+clj꞉wordy꞉> 
+; Evaluating file: wordy.clj
+#'wordy/evaluate
+clj꞉wordy꞉> 
+#"plus|minus|multiplied by|divided by|(?<=plus |minus |multiplied by |divided by )\-?\d+|\-?\d+(?= plus| minus| multiplied by| divided by)"
+
+clj꞉wordy꞉> 
+; clojure.lang.ArityException: Wrong number of args (1) passed to: clojure.core/re-seq wordy /home/porky/exercism/clojure/exercises/practice/wordy/src/wordy.clj:1:1
+clj꞉wordy꞉> 
+("1" "plus" "1")
+
+clj꞉wordy꞉> 
+("1" "plus" "1")
+
+clj꞉wordy꞉> 
+("2" "multiplied by" "-2" "multiplied by" "3")
+
+clj꞉wordy꞉> 
+(1
+ #object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"]
+ 1)
+
+clj꞉wordy꞉> 
+("1" "plus" "1")
+
+clj꞉wordy꞉> 
+#<SciVar@7169995: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x6cf7b07d "sci.impl.fns$fun$arity_1__1213@6cf7b07d"]>
+
+clj꞉wordy꞉> 
+("1" "plus" "1")
+
+clj꞉wordy꞉> 
+1
+
+clj꞉wordy꞉> 
+#object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"]
+
+clj꞉wordy꞉> 
+("2" "multiplied by" "-2" "multiplied by" "3")
+
+clj꞉wordy꞉> 
+("1" "plus" "1")
+
+clj꞉wordy꞉> 
+("2" "multiplied by" "-2" "multiplied by" "3")
+
+clj꞉wordy꞉> 
+#<SciVar@63d29ef3: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x6afcb336 "sci.impl.fns$fun$arity_1__1213@6afcb336"]>
+
+clj꞉wordy꞉> 
+; java.lang.NullPointerException wordy /home/porky/exercism/clojure/exercises/practice/wordy/src/wordy.clj:6:8
+clj꞉wordy꞉> 
+; Evaluating file: wordy.clj
+nil
+clj꞉wordy꞉> 
+; java.lang.NullPointerException wordy /home/porky/exercism/clojure/exercises/practice/wordy/src/wordy.clj:18:8
+clj꞉wordy꞉> 
+("2" "multiplied by" "-2" "multiplied by" "3")
+
+clj꞉wordy꞉> 
+(1
+ #object[clojure.core$_PLUS_ 0x614427b2 "clojure.core$_PLUS_@614427b2"]
+ 1)
+
+clj꞉wordy꞉> 
+; Evaluating file: wordy.clj
+nil
+clj꞉wordy꞉> 
+; nREPL Connection was closed

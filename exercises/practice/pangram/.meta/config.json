@@ -1,10 +1,14 @@
 {
   "blurb": "Determine if a sentence is a pangram.",
   "authors": [
-    "porkostomus"
+    "leetwinski"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "sjwarner-bp",
+    "tstirrat15",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +18,7 @@
       "test/pangram_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Wikipedia",

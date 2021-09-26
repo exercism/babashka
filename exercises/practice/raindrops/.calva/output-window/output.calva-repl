@@ -1,0 +1,228 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Evaluating file: example.clj
+#'raindrops/convert
+clj꞉raindrops꞉> 
+(clojure.core/let
+ [G__227
+  nil
+  G__227
+  (if
+   (zero? (rem number 3))
+   (clojure.core/-> G__227 (str "Pling"))
+   G__227)
+  G__227
+  (if
+   (zero? (rem number 5))
+   (clojure.core/-> G__227 (str "Plang"))
+   G__227)
+  G__227
+  (if
+   (zero? (rem number 7))
+   (clojure.core/-> G__227 (str "Plong"))
+   G__227)]
+ (if :default (clojure.core/-> G__227 (or (str number))) G__227))
+
+clj꞉raindrops꞉> 
+(str G__227 "Pling")
+
+clj꞉raindrops꞉> 
+(or G__227 (str number))
+
+clj꞉raindrops꞉> 
+nil
+
+clj꞉accumulate꞉> 
+#object[sci.impl.namespaces$comment_STAR_ 0x600b179c "sci.impl.namespaces$comment_STAR_@600b179c"]
+
+clj꞉accumulate꞉> 
+(accumulate/accumulate
+ (fn* [%1] 
+      (accumulate/accumulate (fn [n] (str %1 n)) [1 2 3]))
+ "abc")
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x769c8215 "sci.impl.fns$fun$arity_2__1221@769c8215"]>
+
+clj꞉accumulate꞉> 
+true
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+; : Could not resolve symbol: % accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:1:37
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x6cf77f9a "sci.impl.fns$fun$arity_2__1221@6cf77f9a"]>
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x468227fa "sci.impl.fns$eval_fn$fn__1715@468227fa"]>
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:4:16
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:4:16
+clj꞉accumulate꞉> 
+; java.lang.Exception: Cannot call accumulate with 1 arguments accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:2:4
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x15a52c89 "sci.impl.fns$fun$arity_2__1221@15a52c89"]>
+
+clj꞉accumulate꞉> 
+; clojure.lang.ArityException: Wrong number of args (1) passed to: sci.impl.fns/fun/arity-2--1221 accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:2:4
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x75a799c8 "sci.impl.fns$eval_fn$fn__1715@75a799c8"]>
+
+clj꞉accumulate꞉> 
+0
+0
+1
+2
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:6:18
+clj꞉accumulate꞉> 
+#<SciVar@4ef1f54c: 
+  #object[sci.impl.fns$fun$arity_1__1213 0xf54dff8 "sci.impl.fns$fun$arity_1__1213@f54dff8"]>
+
+clj꞉accumulate꞉> 
+0
+1
+2
+[1 4 9]
+
+clj꞉accumulate꞉> 
+0
+1
+2
+[1 4 9]
+
+clj꞉accumulate꞉> 
+0
+0
+1
+2
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:6:18
+clj꞉accumulate꞉> 
+1
+
+clj꞉accumulate꞉> 
+[#object[sci.impl.fns$fun$arity_1__1213 0x6c3bde89 "sci.impl.fns$fun$arity_1__1213@6c3bde89"]
+ 2
+ 3]
+
+clj꞉accumulate꞉> 
+["11" 2 3]
+
+clj꞉accumulate꞉> 
+1
+
+clj꞉accumulate꞉> 
+[#object[sci.impl.fns$fun$arity_1__1213 0x9a8a679 "sci.impl.fns$fun$arity_1__1213@9a8a679"]
+ 2
+ 3]
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x3fcc9ca8 "sci.impl.fns$fun$arity_2__1221@3fcc9ca8"]>
+
+clj꞉accumulate꞉> 
+#object[sci.impl.fns$fun$arity_1__1213 0x65f22651 "sci.impl.fns$fun$arity_1__1213@65f22651"]
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:5:14
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x3336159b "sci.impl.fns$fun$arity_2__1221@3336159b"]>
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: clojure.lang.PersistentVector cannot be cast to java.lang.Number accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:3:9
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: clojure.lang.PersistentVector cannot be cast to java.lang.Number accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:3:9
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x57231f6c "sci.impl.fns$fun$arity_2__1221@57231f6c"]>
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: clojure.lang.PersistentVector cannot be cast to java.lang.Number accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:4:9
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x51c7de93 "sci.impl.fns$eval_fn$fn__1715@51c7de93"]>
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:4:16
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$fun$arity_2__1221 0x437dcea4 "sci.impl.fns$fun$arity_2__1221@437dcea4"]>
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: clojure.lang.PersistentVector cannot be cast to java.lang.Number accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:4:9
+clj꞉accumulate꞉> 
+; : Could not resolve symbol: op accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:1:19
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: clojure.lang.PersistentVector cannot be cast to java.lang.Number accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:4:9
+clj꞉accumulate꞉> 
+(\a \b \c)
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x471ca452 "sci.impl.fns$eval_fn$fn__1715@471ca452"]>
+
+clj꞉accumulate꞉> 
+[\a \b \c]
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x20e91033 "sci.impl.fns$eval_fn$fn__1715@20e91033"]>
+
+clj꞉accumulate꞉> 
+#<SciVar@2d3ccda0: 
+  #object[sci.impl.fns$eval_fn$fn__1715 0x7bd7ae84 "sci.impl.fns$eval_fn$fn__1715@7bd7ae84"]>
+
+clj꞉accumulate꞉> 
+[["a1" "a2" "a3"] ["b1" "b2" "b3"] ["c1" "c2" "c3"]]
+
+clj꞉accumulate꞉> 
+["a1" "a2" "a3"]
+
+clj꞉accumulate꞉> 
+; java.lang.ClassCastException: java.lang.String cannot be cast to clojure.lang.Associative accumulate /home/porky/exercism/clojure/exercises/practice/accumulate/.meta/src/example.clj:1:1
+clj꞉accumulate꞉> 

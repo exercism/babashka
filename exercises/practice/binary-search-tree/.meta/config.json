@@ -1,10 +1,17 @@
 {
   "blurb": "Insert and search for numbers in a binary tree.",
   "authors": [
-    "porkostomus"
+    "geofflane"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "canweriotnow",
+    "dkinzer",
+    "haus",
+    "kytrinyx",
+    "mathias",
+    "rubysolo",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +21,7 @@
       "test/binary_search_tree_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Josh Cheek",

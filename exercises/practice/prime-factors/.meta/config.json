@@ -1,10 +1,17 @@
 {
   "blurb": "Compute the prime factors of a given natural number.",
   "authors": [
-    "porkostomus"
+    "rubysolo"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "canweriotnow",
+    "dkinzer",
+    "haus",
+    "jgwhite",
+    "kytrinyx",
+    "mathias",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +21,7 @@
       "test/prime_factors_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "The Prime Factors Kata by Uncle Bob",

@@ -1,10 +1,15 @@
 {
   "blurb": "Reparent a graph on a selected node",
   "authors": [
-    "porkostomus"
+    "alexkalderimis"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "canweriotnow",
+    "haus",
+    "kytrinyx",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +19,7 @@
       "test/pov_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Adaptation of exercise from 4clojure",

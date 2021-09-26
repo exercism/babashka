@@ -1,0 +1,36 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉> 
+; Evaluating file: bank_account.clj
+#'bank-account/update-balance
+clj꞉bank-account꞉> 
+; Evaluating file: bank_account_test.clj
+{:test 5, :pass 8, :fail 0, :error 0, :type :summary}
+clj꞉bank-account-test꞉> 
+; Evaluating file: bank_account_test.clj
+{:test 5, :pass 7, :fail 0, :error 1, :type :summary}
+clj꞉bank-account-test꞉> 
+; Evaluating file: bank_account_test.clj
+{:test 5, :pass 7, :fail 0, :error 1, :type :summary}
+clj꞉bank-account-test꞉> 
+; Evaluating file: bank_account_test.clj
+{:test 5, :pass 7, :fail 0, :error 1, :type :summary}
+clj꞉bank-account-test꞉> 
+; Evaluating file: bank_account_test.clj
+{:test 5, :pass 7, :fail 0, :error 1, :type :summary}
+clj꞉bank-account-test꞉> 
+; nREPL Connection was closed

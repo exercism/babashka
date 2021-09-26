@@ -1,0 +1,191 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+c o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Connecting ...
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS: 
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉user꞉>  ; Use `alt+enter` to evaluate
+; Evaluating file: exemplar.clj
+nil
+clj꞉interest-is-interesting꞉> 
+; java.lang.IllegalArgumentException: No matching method abs found taking 1 args interest-is-interesting /home/porky/exercism/clojure/exercises/concept/interest-is-interesting/.meta/exemplar.clj:13:8
+clj꞉interest-is-interesting꞉> 
+; Evaluating file: exemplar.clj
+nil
+clj꞉interest-is-interesting꞉> 
+1016.2101016209999M
+
+clj꞉interest-is-interesting꞉> 
+1016.2101016209999M
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@1656dfaa: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x4d0ad193 "sci.impl.fns$fun$arity_1__1213@4d0ad193"]>
+
+clj꞉interest-is-interesting꞉> 
+1016.2101016209999
+
+clj꞉interest-is-interesting꞉> 
+16.210001621
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@12727d5a: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x1bd56785 "sci.impl.fns$fun$arity_1__1213@1bd56785"]>
+
+clj꞉interest-is-interesting꞉> 
+0.01621M
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@12727d5a: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x5d9cdfbc "sci.impl.fns$fun$arity_1__1213@5d9cdfbc"]>
+
+clj꞉interest-is-interesting꞉> 
+0.01621
+
+clj꞉interest-is-interesting꞉> 
+16.210001621
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@19e80173: 
+  #object[sci.impl.fns$fun$arity_1__1213 0xabf4a4d "sci.impl.fns$fun$arity_1__1213@abf4a4d"]>
+
+clj꞉interest-is-interesting꞉> 
+16.210001621M
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@19e80173: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x40604fe2 "sci.impl.fns$fun$arity_1__1213@40604fe2"]>
+
+clj꞉interest-is-interesting꞉> 
+16.210001621M
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@19e80173: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x1200c350 "sci.impl.fns$fun$arity_1__1213@1200c350"]>
+
+clj꞉interest-is-interesting꞉> 
+16.210001621M
+
+clj꞉interest-is-interesting꞉> 
+1016.210101621M
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@19e80173: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x3c1aa7fc "sci.impl.fns$fun$arity_1__1213@3c1aa7fc"]>
+
+clj꞉interest-is-interesting꞉> 
+1016.210101621M
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@19e80173: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x387280aa "sci.impl.fns$fun$arity_1__1213@387280aa"]>
+
+clj꞉interest-is-interesting꞉> 
+1016.2101016209999
+
+clj꞉interest-is-interesting꞉> 
+#<SciVar@19e80173: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x3551f6b1 "sci.impl.fns$fun$arity_1__1213@3551f6b1"]>
+
+clj꞉interest-is-interesting꞉> 
+1016.210101621M
+
+clj꞉interest-is-interesting꞉> 
+; Evaluating file: exemplar.clj
+#'interest-is-interesting/amount-to-donate
+clj꞉interest-is-interesting꞉> 
+; Evaluating file: interest_is_interesting_test.clj
+#'interest-is-interesting-test/amount-to-donate-large-negative-balance-test
+clj꞉interest-is-interesting-test꞉> 
+{:test 27, :pass 24, :fail 3, :error 0, :type :summary}
+
+clj꞉interest-is-interesting-test꞉> 
+#<SciVar@e75507b: 
+  #object[sci.impl.fns$fun$arity_0__1209 0x16a28c7b "sci.impl.fns$fun$arity_0__1209@16a28c7b"]>
+
+clj꞉interest-is-interesting-test꞉> 
+{:test 27, :pass 25, :fail 2, :error 0, :type :summary}
+
+clj꞉interest-is-interesting-test꞉> 
+#<SciVar@46507c62: 
+  #object[sci.impl.fns$fun$arity_0__1209 0x5b17651 "sci.impl.fns$fun$arity_0__1209@5b17651"]>
+
+clj꞉interest-is-interesting-test꞉> 
+{:test 27, :pass 26, :fail 1, :error 0, :type :summary}
+
+clj꞉interest-is-interesting-test꞉> 
+#<SciVar@227654a6: 
+  #object[sci.impl.fns$fun$arity_0__1209 0x3818a51b "sci.impl.fns$fun$arity_0__1209@3818a51b"]>
+
+clj꞉interest-is-interesting-test꞉> 
+{:test 27, :pass 27, :fail 0, :error 0, :type :summary}
+
+clj꞉interest-is-interesting-test꞉> 
+; Evaluating file: example.clj
+#'queen-attack/can-attack
+clj꞉queen-attack꞉> 
+; Evaluating file: queen_attack_test.clj
+#'queen-attack-test/finds-attack-positions
+clj꞉queen-attack-test꞉> 
+{:test 3, :pass 8, :fail 2, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 
+; Evaluating file: example.clj
+#'queen-attack/can-attack
+clj꞉queen-attack꞉> 
+; Evaluating file: queen_attack_test.clj
+{:test 3, :pass 6, :fail 4, :error 0, :type :summary}
+clj꞉queen-attack-test꞉> 
+{:test 3, :pass 6, :fail 4, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 
+{:test 0, :pass 0, :fail 0, :error 0, :type :summary}
+
+clj꞉queen-attack꞉> 
+; Evaluating file: example.clj
+#'queen-attack/can-attack
+clj꞉queen-attack꞉> 
+{:test 3, :pass 8, :fail 2, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 
+; Evaluating file: queen_attack_test.clj
+{:test 3, :pass 8, :fail 2, :error 0, :type :summary}
+clj꞉queen-attack-test꞉> 
+{:test 3, :pass 8, :fail 2, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 
+; Evaluating file: example.clj
+#'queen-attack/can-attack
+clj꞉queen-attack꞉> 
+{:test 3, :pass 8, :fail 2, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 
+; Evaluating file: example.clj
+#'queen-attack/can-attack
+clj꞉queen-attack꞉> 
+; Evaluating file: queen_attack_test.clj
+{:test 3, :pass 10, :fail 0, :error 0, :type :summary}
+clj꞉queen-attack-test꞉> 
+{:test 3, :pass 10, :fail 0, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 
+#<SciVar@3e373fb8: 
+  #object[sci.impl.fns$fun$arity_1__1213 0x6350418f "sci.impl.fns$fun$arity_1__1213@6350418f"]>
+
+clj꞉queen-attack꞉> 
+; Evaluating file: example.clj
+#'queen-attack/can-attack
+clj꞉queen-attack꞉> 
+{:test 3, :pass 10, :fail 0, :error 0, :type :summary}
+
+clj꞉queen-attack-test꞉> 

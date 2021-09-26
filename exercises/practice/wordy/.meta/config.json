@@ -1,10 +1,13 @@
 {
   "blurb": "Parse and evaluate simple math word problems returning the answer as an integer.",
   "authors": [
-    "porkostomus"
+    "leetwinski"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +17,7 @@
       "test/wordy_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Inspired by one of the generated questions in the Extreme Startup game.",

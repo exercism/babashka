@@ -10,11 +10,11 @@
    :static true}
   [& fns] (pmap #(%) fns))
 
-(defn shutdown-agents-fixture [f]
+#_(defn shutdown-agents-fixture [f]
   (f)
   (shutdown-agents))
 
-(use-fixtures :once shutdown-agents-fixture)
+;(use-fixtures :once shutdown-agents-fixture)
 
 (deftest initial-account-state
   (testing "Accounts are opened with a balance of 0"

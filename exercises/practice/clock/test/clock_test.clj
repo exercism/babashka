@@ -1,5 +1,5 @@
 (ns clock-test
-  (:require [clock :refer [clock->string clock add-time]]
+  (:require [clock :refer :all]
             [clojure.test :refer [deftest testing is]]))
 
 (deftest create-clock-test

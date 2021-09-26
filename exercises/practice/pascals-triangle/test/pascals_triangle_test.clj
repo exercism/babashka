@@ -1,6 +1,6 @@
 (ns pascals-triangle-test
   (:require [clojure.test :refer [deftest is testing]]
-            [pascals-triangle :refer [triangle row]]))
+            [pascals-triangle :refer :all]))
 
 (deftest test-one-row
   (testing "First row"

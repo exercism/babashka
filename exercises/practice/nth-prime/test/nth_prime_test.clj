@@ -20,4 +20,4 @@
 
 (deftest zeroth-prime
   (testing "there is no zeroth prime"
-    (is (thrown? Throwable (nth-prime/nth-prime 0)))))
+    (is (thrown? IllegalArgumentException (nth-prime/nth-prime 0)))))

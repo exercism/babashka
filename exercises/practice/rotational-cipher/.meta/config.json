@@ -1,10 +1,14 @@
 {
   "blurb": "Create an implementation of the rotational cipher, also sometimes called the Caesar cipher.",
   "authors": [
-    "porkostomus"
+    "mwfogleman"
   ],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "dkinzer",
+    "haus",
+    "sjwarner-bp",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +18,7 @@
       "test/rotational_cipher_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Wikipedia",

@@ -1,10 +1,10 @@
 {
   "blurb": "Implement complex numbers.",
-  "authors": [
-    "porkostomus"
-  ],
+  "authors": [],
   "contributors": [
-    "iHiD"
+    "AndreaCrotti",
+    "haus",
+    "sjwarner-bp"
   ],
   "files": {
     "solution": [
@@ -14,7 +14,7 @@
       "test/complex_numbers_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Wikipedia",

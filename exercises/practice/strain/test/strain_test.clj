@@ -34,8 +34,7 @@
 (deftest discard-several
   (is (= [0 2 4] (discard odd? (range 6)))))
 
-;; TODO: For now we can trust mentors to reject cheesy solutions
-#_(deftest does-not-use-existing-implementations
+(deftest does-not-use-existing-implementations
   (with-redefs [filter  (fn-throw-exception "Implement without filter!")
                 remove  (fn-throw-exception "Implement without remove!")
                 filterv (fn-throw-exception "Implement without filterv!")]

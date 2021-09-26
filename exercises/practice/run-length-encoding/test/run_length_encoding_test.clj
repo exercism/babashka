@@ -1,5 +1,5 @@
 (ns run-length-encoding-test
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [clojure.test :refer :all]
             [run-length-encoding :as rle]))
 
 ;;Tests for run-length-encoding exercise

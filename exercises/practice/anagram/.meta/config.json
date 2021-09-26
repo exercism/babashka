@@ -1,10 +1,23 @@
 {
   "blurb": "Given a word and a list of possible anagrams, select the correct sublist.",
   "authors": [
-    "porkostomus"
+    "rubysolo"
   ],
   "contributors": [
-    "iHiD"
+    "achengs",
+    "AndreaCrotti",
+    "canweriotnow",
+    "crazymykl",
+    "dkinzer",
+    "haus",
+    "henrik",
+    "jgwhite",
+    "kytrinyx",
+    "markijbema",
+    "mascip",
+    "mathias",
+    "tejasbubane",
+    "yurrriq"
   ],
   "files": {
     "solution": [
@@ -14,7 +27,7 @@
       "test/anagram_test.clj"
     ],
     "example": [
-      "src/example.clj"
+      ".meta/src/example.clj"
     ]
   },
   "source": "Inspired by the Extreme Startup game",

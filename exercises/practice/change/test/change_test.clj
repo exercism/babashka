@@ -26,9 +26,9 @@
   (is (empty? (issue 0 #{1, 5, 10, 21, 25}))))
 
 (deftest error-testing-for-change-smallet-than-the-smallest-coin
-  (is (thrown? Throwable #"cannot change"
+  (is (thrown-with-msg? IllegalArgumentException #"cannot change"
                         (issue 3 #{5 10}))))
 
 (deftest cannot-find-negative-change-values
-  (is (thrown? Throwable #"cannot change"
+  (is (thrown-with-msg? IllegalArgumentException #"cannot change"
                         (issue -5 #{1 2 5}))))
