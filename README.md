@@ -4,7 +4,7 @@
 
 Exercism exercises in [Babashka](https://babashka.org/).
 
-Haven't heard of Babashka? It's brand-new! Watch the [introductory talk](https://www.youtube.com/watch?v=Nw8aN-nrdEk).
+Haven't heard of Babashka? Watch the [introductory talk](https://www.youtube.com/watch?v=Nw8aN-nrdEk).
 
 ## Setup
 
@@ -13,7 +13,7 @@ Haven't heard of Babashka? It's brand-new! Watch the [introductory talk](https:/
 
 ## Exercise Tests
 
-At the most basic level, Exercism is all about the tests. You can read more about how we think about test suites in [the Exercism documentation](https://github.com/exercism/legacy-docs/blob/master/language-tracks/exercises/anatomy/test-suites.md). Babashka comes bundled with [clojure.test](https://clojure.github.io/clojure/clojure.test-api.html). To run the entire test suite for all 76 exercises:
+You can read about how we think about test suites in [the Exercism documentation](https://github.com/exercism/legacy-docs/blob/master/language-tracks/exercises/anatomy/test-suites.md). Babashka comes bundled with [clojure.test](https://clojure.github.io/clojure/clojure.test-api.html). To run the entire test suite for all 76 exercises:
 
 ```bash
 $ bb -f _test/check_exercises.clj
